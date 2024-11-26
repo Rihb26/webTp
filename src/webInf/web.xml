@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>ListeAnnonceServlet</servlet-name>
+        <servlet-class>com.example.ListeAnnonceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListeAnnonceServlet</servlet-name>
+        <url-pattern>/annonces</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DetailAnnonceServlet</servlet-name>
+        <servlet-class>com.example.DetailAnnonceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetailAnnonceServlet</servlet-name>
+        <url-pattern>/annonce-detail</url-pattern>
+    </servlet-mapping>
+</web-app>
